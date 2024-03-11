@@ -1,0 +1,33 @@
+/* Common */
+.btn {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  background-image: linear-gradient(140deg, #0056c7 0%, #00b61c 100%);
+  border-radius: 100px 100px 100px 100px;
+  padding: 0px 16px;
+  min-width: 118px;
+  color: #fff;
+  line-height: 44px;
+  border: 0.1px solid #254d01;
+}
+.btn:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #00b61c;
+  border: 1px solid #00b61c;
+}
+a {
+  text-decoration: none;
+}
+.main-content {
+  width: 1500px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+:root {
+  --font-heading: Sen, sans-serif;
+  --font-content: Poppins, sans-serif;
+}
